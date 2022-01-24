@@ -44,6 +44,12 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# Device Marketname Overlays
+PRODUCT_PACKAGES += \
+    SettingsProviderM2012K11AC \
+    SettingsProviderM2012K11AG \
+    SettingsProviderM2012K11AI
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
