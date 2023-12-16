@@ -35,7 +35,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/camera/products/miuicamera.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-derp
+    $(LOCAL_PATH)/overlay-evolution
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
